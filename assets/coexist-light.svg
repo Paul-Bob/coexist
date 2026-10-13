@@ -13,9 +13,9 @@
 <circle cx="638" cy="128" r="6.5" fill="#0969da"/>
 <path d="M627 145 a11 9 0 0 1 22 0 z" fill="#0969da"/>
 <text x="660" y="141" font-size="15" font-weight="600" fill="#0969da">For people</text>
-<rect x="628" y="160" width="492" height="10" rx="5" fill="#c8d1da"/>
-<rect x="628" y="180" width="452" height="10" rx="5" fill="#c8d1da"/>
-<rect x="628" y="200" width="300" height="10" rx="5" fill="#c8d1da"/>
+<text x="628" y="170" font-size="15" fill="#1f2328">CSV exports no longer drop rows after a date filter is applied.</text>
+<text x="628" y="193" font-size="15" fill="#59636e">A new spec exports 1,200 filtered rows and gets all of them.</text>
+<text x="628" y="216" font-size="15" fill="#59636e">Fixes <tspan fill="#0969da">#482</tspan></text>
 <line x1="628" y1="230" x2="1124" y2="230" stroke="#d0d7de" stroke-dasharray="4 4"/>
 <path d="M630 250 l12 0 l-6 8 z" fill="#8250df"/>
 <rect x="652" y="244" width="22" height="18" rx="5" fill="none" stroke="#8250df" stroke-width="2"/>
