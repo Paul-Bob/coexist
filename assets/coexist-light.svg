@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">coexist</title>
+<desc id="d">A PR description with a short part for people on top and a folded For AI agents section underneath.</desc>
+<rect width="1200" height="440" rx="20" fill="#f6f8fa"/>
+<text x="64" y="172" font-size="76" font-weight="700" fill="#1f2328" letter-spacing="-2">coexist</text>
+<text x="66" y="222" font-size="26" font-weight="600" fill="#1f2328">One description, two readers.</text>
+<text x="66" y="258" font-size="19" fill="#59636e">A short part for people.</text>
+<text x="66" y="286" font-size="19" fill="#59636e">Context for agents, folded underneath.</text>
+<rect x="64" y="318" width="112" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/><text x="120.0" y="339" font-size="15" fill="#59636e" text-anchor="middle">GitHub PRs</text><rect x="186" y="318" width="137" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/><text x="254.5" y="339" font-size="15" fill="#59636e" text-anchor="middle">GitHub issues</text><rect x="333" y="318" width="137" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/><text x="401.5" y="339" font-size="15" fill="#59636e" text-anchor="middle">Linear issues</text>
+<rect x="600" y="44" width="552" height="352" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<text x="628" y="84" font-size="17" font-weight="600" fill="#1f2328">Description</text>
+<line x1="600" y1="102" x2="1152" y2="102" stroke="#d0d7de"/>
+<circle cx="638" cy="128" r="6.5" fill="#0969da"/>
+<path d="M627 145 a11 9 0 0 1 22 0 z" fill="#0969da"/>
+<text x="660" y="141" font-size="15" font-weight="600" fill="#0969da">For people</text>
+<rect x="628" y="160" width="492" height="10" rx="5" fill="#c8d1da"/>
+<rect x="628" y="180" width="452" height="10" rx="5" fill="#c8d1da"/>
+<rect x="628" y="200" width="300" height="10" rx="5" fill="#c8d1da"/>
+<line x1="628" y1="230" x2="1124" y2="230" stroke="#d0d7de" stroke-dasharray="4 4"/>
+<path d="M630 250 l12 0 l-6 8 z" fill="#8250df"/>
+<rect x="652" y="244" width="22" height="18" rx="5" fill="none" stroke="#8250df" stroke-width="2"/>
+<circle cx="659" cy="253" r="2" fill="#8250df"/><circle cx="667" cy="253" r="2" fill="#8250df"/>
+<line x1="663" y1="244" x2="663" y2="239" stroke="#8250df" stroke-width="2"/>
+<text x="684" y="259" font-size="15" font-weight="600" fill="#8250df">For AI agents</text>
+<rect x="628" y="276" width="496" height="96" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="648" y="306" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8250df" font-weight="600">Where </tspan><tspan fill="#59636e">  app/services/csv_export.rb:41</tspan></text><text x="648" y="331" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8250df" font-weight="600">Why   </tspan><tspan fill="#59636e">  counts the unpaginated scope</tspan></text><text x="648" y="356" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8250df" font-weight="600">Verify</tspan><tspan fill="#59636e">  bin/rspec spec/requests/csv_export_spec.rb</tspan></text>
+</svg>
