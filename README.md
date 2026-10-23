@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/coexist-dark.svg">
-  <img alt="coexist: a PR description with a short part for people on top and a folded For AI agents section underneath" src="assets/coexist-light.svg">
+  <img alt="coexist. Agents write most of the code now. A description written only for people throws away the agent's context, and the next agent has to rebuild it from the code. A description written only for agents leaves people out. coexist writes for both. Beside it, a PR description with a short part for people on top and a folded For AI agents section underneath." src="assets/coexist-light.svg">
 </picture>
 
 # coexist

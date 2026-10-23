@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
 <title id="t">coexist</title>
-<desc id="d">A PR description with a short part for people on top and a folded For AI agents section underneath.</desc>
-<rect width="1200" height="440" rx="20" fill="#161b22"/>
-<text x="64" y="172" font-size="76" font-weight="700" fill="#e6edf3" letter-spacing="-2">coexist</text>
-<text x="66" y="222" font-size="26" font-weight="600" fill="#e6edf3">One description, two readers.</text>
-<text x="66" y="258" font-size="19" fill="#9198a1">A short part for people.</text>
-<text x="66" y="286" font-size="19" fill="#9198a1">Context for agents, folded underneath.</text>
-<rect x="64" y="318" width="112" height="32" rx="16" fill="#0d1117" stroke="#30363d"/><text x="120.0" y="339" font-size="15" fill="#9198a1" text-anchor="middle">GitHub PRs</text><rect x="186" y="318" width="137" height="32" rx="16" fill="#0d1117" stroke="#30363d"/><text x="254.5" y="339" font-size="15" fill="#9198a1" text-anchor="middle">GitHub issues</text><rect x="333" y="318" width="137" height="32" rx="16" fill="#0d1117" stroke="#30363d"/><text x="401.5" y="339" font-size="15" fill="#9198a1" text-anchor="middle">Linear issues</text>
+<desc id="d">Agents write most of the code now. A description written only for people throws away the agent’s context, and the next agent has to rebuild it from the code. A description written only for agents leaves people out. coexist writes for both. Beside it, a PR description with a short part for people on top and a folded For AI agents section underneath.</desc>
+<rect width="1200" height="480" rx="20" fill="#161b22"/>
+<text x="64" y="124" font-size="76" font-weight="700" fill="#e6edf3" letter-spacing="-2">coexist</text>
+<text x="66" y="176" font-size="26" font-weight="600" fill="#e6edf3">Agents write most of the code now.</text>
+<text x="66" y="216" font-size="19" fill="#9198a1">A description written only for people throws away</text>
+<text x="66" y="243" font-size="19" fill="#9198a1">the agent’s context, and the next agent has to</text>
+<text x="66" y="270" font-size="19" fill="#9198a1">rebuild it from the code.</text>
+<text x="66" y="306" font-size="19" fill="#9198a1">A description written only for agents</text>
+<text x="66" y="333" font-size="19" fill="#9198a1">leaves people out.</text>
+<text x="66" y="374" font-size="19" font-weight="600" fill="#e6edf3">coexist writes for both.</text>
+<rect x="64" y="404" width="112" height="32" rx="16" fill="#0d1117" stroke="#30363d"/><text x="120.0" y="425" font-size="15" fill="#9198a1" text-anchor="middle">GitHub PRs</text><rect x="186" y="404" width="137" height="32" rx="16" fill="#0d1117" stroke="#30363d"/><text x="254.5" y="425" font-size="15" fill="#9198a1" text-anchor="middle">GitHub issues</text><rect x="333" y="404" width="137" height="32" rx="16" fill="#0d1117" stroke="#30363d"/><text x="401.5" y="425" font-size="15" fill="#9198a1" text-anchor="middle">Linear issues</text>
+<g transform="translate(0 20)">
 <rect x="600" y="44" width="552" height="352" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text x="628" y="84" font-size="17" font-weight="600" fill="#e6edf3">Description</text>
 <line x1="600" y1="102" x2="1152" y2="102" stroke="#30363d"/>
@@ -24,4 +29,5 @@
 <text x="684" y="259" font-size="15" font-weight="600" fill="#ab7df8">For AI agents</text>
 <rect x="628" y="276" width="496" height="96" rx="8" fill="#151b23" stroke="#30363d"/>
 <text x="648" y="306" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#ab7df8" font-weight="600">Where </tspan><tspan fill="#9198a1">  app/services/csv_export.rb:41</tspan></text><text x="648" y="331" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#ab7df8" font-weight="600">Why   </tspan><tspan fill="#9198a1">  counts the unpaginated scope</tspan></text><text x="648" y="356" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#ab7df8" font-weight="600">Verify</tspan><tspan fill="#9198a1">  bin/rspec spec/requests/csv_export_spec.rb</tspan></text>
+</g>
 </svg>
