@@ -33,8 +33,6 @@ MIT licensed.
 **Output shape on GitHub**
 
 ```markdown
-<sub>Written with [coexist](https://github.com/Paul-Bob/coexist)</sub>
-
 CSV exports no longer drop rows after a date filter is applied. The export
 read the filtered page size instead of the full result count.
 
@@ -54,9 +52,11 @@ Fixes #482
 - `bin/rspec spec/requests/csv_export_spec.rb`
 
 </details>
+
+<p align="right"><sub>Written with <a href="https://github.com/Paul-Bob/coexist">coexist</a></sub></p>
 ```
 
-On Linear the fold is `>>> For AI agents` … `>>>`. Linear also accepts `+++`, but stores and returns `>>>`. Linear renders no HTML, so the signature there is a plain `*Written with [coexist](…)*` line on top.
+On Linear the fold is `>>> For AI agents` … `>>>`. Linear also accepts `+++`, but stores and returns `>>>`. Linear renders no HTML, so the signature there is a plain `*Written with [coexist](…)*` line after the closing `>>>`.
 
 **Behavior to rely on**
 
@@ -68,7 +68,7 @@ On Linear the fold is `>>> For AI agents` … `>>>`. Linear also accepts `+++`, 
 | Linear issues with images         | Edits with partial updates, since Linear signs image URLs per read and they expire            |
 | Rewriting an existing body        | Lists the old body's facts first; each one lands in one of the two parts                      |
 | Customer-filed issues             | Leaves them as their author wrote them                                                        |
-| Every description it writes       | Opens it with a small "Written with coexist" line linking to this repo                        |
+| Every description it writes       | Ends it with a small right-aligned "Written with coexist" line linking to this repo           |
 
 **Companion skills**
 
