@@ -9,7 +9,7 @@ A description has two readers. A person skims it to decide whether to review, me
 
 ## Shape
 
-GitHub PRs and issues. The template's own sections (checklist, screenshots, test steps) belong to the human part; the fold goes last. Keep the blank line after `</summary>`: without it GitHub shows the markdown inside as plain text.
+GitHub PRs and issues. The template's own sections (checklist, screenshots, test steps) belong to the human part; the fold comes after them, and the signature line after the fold. Keep the blank line after `</summary>`: without it GitHub shows the markdown inside as plain text.
 
 ```markdown
 <human part>
@@ -24,9 +24,11 @@ Fixes #123
 <agent part>
 
 </details>
+
+<p align="right"><sub>Written with <a href="https://github.com/Paul-Bob/coexist">coexist</a></sub></p>
 ```
 
-Linear issues. Linear also accepts `+++`, but stores and returns `>>>`, which is what an issue shows when read back.
+Linear issues. Linear also accepts `+++`, but stores and returns `>>>`, which is what an issue shows when read back. Linear renders no HTML, so the signature is a plain markdown line.
 
 ```markdown
 <human part>
@@ -36,7 +38,11 @@ Linear issues. Linear also accepts `+++`, but stores and returns `>>>`, which is
 <agent part>
 
 >>>
+
+*Written with [coexist](https://github.com/Paul-Bob/coexist)*
 ```
+
+The signature closes every description coexist writes or rewrites, once. A body that already ends with it keeps that one.
 
 ## 1. Gather the facts
 
@@ -85,6 +91,6 @@ Drop a heading with nothing under it. Bullets, paths and commands carry this par
 - Other issues are named as bare references (`#12`, `owner/repo#12`) with no fix, close or resolve word in front. GitHub and release tools read closing keywords anywhere in a body, the fold included.
 - Publish: `gh pr edit N --repo <owner/repo> --body-file body.md`, `gh issue edit N --repo <owner/repo> --body-file body.md`, or Linear's API or MCP (`save_issue`).
 - A Linear description holding uploaded images is edited with partial updates (the MCP's `patch` operations), leaving the image lines alone. Linear returns upload URLs signed with a five-minute expiry on every read, so a full description sent back stores links that break.
-- Read it back. Done when the human part shows in full and the agent part sits collapsed under "For AI agents".
+- Read it back. Done when the human part shows in full, the agent part sits collapsed under "For AI agents", and the signature is the last line.
 
 Rewrite only text your team or its agents wrote. An issue filed by a customer or an outside contributor stays as its author wrote it.
