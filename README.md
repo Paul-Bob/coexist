@@ -13,7 +13,7 @@ Write a PR only for people, and the next agent spends tokens working out what yo
 npx skills add Paul-Bob/coexist
 ```
 
-Then run `/coexist`, or ask for a PR description or an issue as usual. It also rewrites existing descriptions, keeping every fact. It works best next to [`ce-noslop`](https://github.com/EveryInc/compound-engineering-plugin/tree/main/skills/ce-noslop) and [`writing-for-agents`](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents), both optional.
+Then run `/coexist`, or ask for a PR description or an issue as usual. It also rewrites existing descriptions, keeping every fact. When a change has a shape that sentences flatten, such as a request path, a flow or a number that moved, it draws a Mermaid diagram that GitHub and Linear both render. It works best next to [`ce-noslop`](https://github.com/EveryInc/compound-engineering-plugin/tree/main/skills/ce-noslop) and [`writing-for-agents`](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents), both optional.
 
 MIT licensed.
 
@@ -68,6 +68,8 @@ On Linear the fold is `>>> For AI agents` … `>>>`. Linear also accepts `+++`, 
 | Linear issues with images         | Edits with partial updates, since Linear signs image URLs per read and they expire            |
 | Rewriting an existing body        | Lists the old body's facts first; each one lands in one of the two parts                      |
 | Customer-filed issues             | Leaves them as their author wrote them                                                        |
+| A change with a shape             | Adds one Mermaid diagram to the human part, syntax-checked with mermaid-cli before publishing |
+| Breaking changes, manual steps    | Flags them with a GitHub alert (`> [!WARNING]`), or a bold first word on Linear               |
 | Every description it writes       | Ends it with a small right-aligned "Written with coexist" line linking to this repo           |
 
 **Companion skills**
