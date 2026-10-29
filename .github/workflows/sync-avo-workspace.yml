@@ -1,0 +1,30 @@
+name: Sync Avo workspace
+
+# avo-hq/workspace vendors skills/coexist/ and mirrors it into a PR with its coexist-sync.yml. This starts that
+# workflow on every change to the skill, so the PR opens minutes after a merge instead of at the daily run.
+#
+# AVO_WORKSPACE_DISPATCH_TOKEN is a fine-grained token with Actions: write on avo-hq/workspace and nothing else:
+# it can start and manage workflow runs there, with no Contents access. Without it this skips; the daily run catches up.
+
+on:
+  push:
+    branches: [main]
+    paths: ["skills/coexist/**"]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  dispatch:
+    name: Start the workspace sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch coexist-sync.yml
+        env:
+          GH_TOKEN: ${{ secrets.AVO_WORKSPACE_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::notice::AVO_WORKSPACE_DISPATCH_TOKEN is not set; avo-hq/workspace picks this up at its daily run."
+            exit 0
+          fi
+          gh workflow run coexist-sync.yml --repo avo-hq/workspace --ref main
