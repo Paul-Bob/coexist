@@ -24,6 +24,7 @@ MIT licensed.
 
 - One skill, `skills/coexist/SKILL.md`. It is model-invoked: it triggers on writing or editing a PR description, filing an issue, or cleaning up an existing description. `/coexist` invokes it directly.
 - `assets/` holds this README's banner, nothing the skill reads.
+- `.github/workflows/sync-avo-workspace.yml` starts avo-hq/workspace's mirror of the skill on every change to `skills/coexist/`; nothing the skill reads.
 
 **Install**
 
